@@ -205,7 +205,7 @@ void PlayerMove()
 {
     char MoveIndex[256];
     int ok = 1;
-    cout << "\nInsert one number from 0 to 9 for your " << User2Character << " position.\n";
+    cout << "\nInsert one number from 1 to 9 for your " << User2Character << " position.\n";
 
     cin >> MoveIndex;
     cin.get();
